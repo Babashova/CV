@@ -1,0 +1,35 @@
+.header{
+    float: none;
+    text-align: center;
+}
+.header a{
+    padding: 5px;
+}
+
+ul {
+    display: inline;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(191, 197, 197);
+}
+li a{
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    width:31.3%;
+    text-align: center;
+    border:  rgb(14, 15, 15) solid 1px;
+    
+}
+
+li a:hover{
+    background-color: rgb(108, 184, 184);
+}
+.active{
+    background-color: rgb(181, 186, 187);
+}
